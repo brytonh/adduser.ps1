@@ -1,5 +1,5 @@
-###Put 1 user per line in C:/Users/$env:username/users.txt"###
-###Script adds these users to CN=Users, DC=hackme, DC=com
+###Put 1 user per line in "C:/Users/$env:username/users.txt"###
+###Script adds these users to "CN=Users, DC=hackme, DC=com"
 
 Import-Module ActiveDirectory
 $path="C:\Users\$env:username\users.txt"
